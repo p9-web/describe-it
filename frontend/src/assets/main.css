@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+	--bg: white;
+	--primary: #183E7C;
+	--secondary: #3FC7D8;
+	--text-primary: #111827;
+	--text-secondary: #6B7280;
+}
+
+.dark, .dark * {
+	--bg: #0F172A;
+	--primary: #3B82F6;
+	--secondary: #3FC7D8;
+	--text-primary: #F8FAFC;
+	--text-secondary: #CBD5E1;
+}
+
+html {
+	position: relative;
+	height: 100vh;
+}
+
+body, #app, main {
+	@apply h-full bg-bg;
+}
+
+@theme {
+	--color-primary: var(--primary);
+	--color-secondary: var(--secondary);
+	--color-bg: var(--bg);
+	--color-text-primary: var(--text-primary);
+	--color-text-secondary: var(--text-secondary);
+}

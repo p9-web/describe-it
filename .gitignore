@@ -1,0 +1,175 @@
+# ==================== Frontend ====================
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+.pnp
+.pnp.js
+.pnpm-store/
+
+# Package manager files
+.npm
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+frontend/dist/
+frontend/build/
+.output/
+.nuxt/
+.next/
+out/
+
+# Vite
+.vite/
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# TypeScript
+*.tsbuildinfo
+.tsc-cache/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==================== Backend (Python) ====================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+backend/venv/
+backend/env/
+backend/ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Backend specific directories
+backend/uploads/
+backend/temp/
+backend/tmp/
+backend/static/uploads/
+
+# ==================== ML/AI Models ====================
+
+# Model files
+*.h5
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.onnx
+*.pb
+*.safetensors
+
+# Model directories
+models/
+model_cache/
+model_weights/
+huggingface/
+.cache/
+
+# ==================== Database ====================
+
+*.db
+*.sqlite
+*.sqlite3
+instance/
+
+# ==================== Environment & Config ====================
+
+# Environment variables
+.env
+.env.*
+*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+backend/.env.*
+
+# ==================== IDEs & Editors ====================
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+
+# Vim
+*.swp
+*.swo
+*.sw?
+
+# ==================== OS Files ====================
+
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ==================== Temporary Files ====================
+
+*.tmp
+.temp/
+tmp/
+
+# ==================== Jupyter Notebooks ====================
+
+.ipynb_checkpoints/
+*.ipynb
+
+# ==================== AI Assistant Config ====================
+
+.claude/
+CLAUDE.md
