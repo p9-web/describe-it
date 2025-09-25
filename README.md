@@ -1,3 +1,5 @@
+<img src="frontend/src/assets/logo.jpg" alt="Alt Text Generator Logo" width="400"/>
+
 # Alt Text Generator
 
 A Python + Vue 3 app that generates suggested alt text for images using free Hugging Face models with multiple model options.
